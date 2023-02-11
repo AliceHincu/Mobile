@@ -1,0 +1,53 @@
+
+----------------
+ws://localhost:3000/socket
+ws://192.168.43.20:3000/socket
+
+FOR GREETING
+{"type":"GREETING","data":"Hello! I am a client!"}
+
+FOR CREATE
+{
+  "type":"CREATE",
+  "data":{
+    "title": "vmkldmvlds",
+    "description": "of",
+    "emotion": 2
+  }
+}
+
+FOR GET_ALL
+{
+  "type":"GET_ALL",
+  "data":[
+    {
+      "title": "88888",
+      "description": "888",
+      "emotion": 2
+    }
+  ]
+}
+{
+  "type":"GET_ALL",
+  "data":[]
+}
+
+FOR UPDATE
+{
+  "type":"UPDATE",
+  "data":{
+    "_id": 1,
+    "date": 1673897754716,
+    "title": "Updated",
+    "description": "of",
+    "emotion": 2
+  }
+}
+
+FOR DELETE
+{
+  "type":"DELETE",
+  "data":{
+    "_id": 1
+  }
+}

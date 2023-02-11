@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="how_are_you_feeling_today">How are you feeling today?</string>
+    <string name="note_title_edit">Title of the note</string>
+    <string name="note_text_edit">Tell me about your day...</string>
+    <string name="label_mood">Mood:</string>
+    <string name="label_title">Title:</string>
+    <string name="label_text">Text:</string>
+</resources>
